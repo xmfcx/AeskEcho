@@ -5,4 +5,4 @@ Telemetry Web Project with Arduino Nanos and RF Modules
 - https://github.com/PaulStoffregen/Time
 
 ##Scheme
-![alt tag]http://i.imgur.com/ztktVfF.png
+![alt tag](http://i.imgur.com/ztktVfF.png)
