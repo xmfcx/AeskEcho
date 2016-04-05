@@ -1,28 +1,16 @@
-#include "Time\Time.h"
+#include <Arduino.h>
 String dataToSend;
-unsigned long lastMillis;
-int datanumber;
-String curTime;
-
+unsigned long lastMillis = 0;
+int datanumber = 0;
 void setup()
 {
-	setTime(0, 0, 0, 1, 1, 2016);
-	datanumber = 0;
-	lastMillis = millis();
 	Serial.begin(9600);
 }
-
 void loop()
 {
-	if (millis() - lastMillis > 1000)
+	if (millis() - lastMillis > 2000)
 	{
-		time_t t = now();
-		curTime = hour(t) + ":";
-		curTime += ":" + minute(t);
-		curTime += +":" + second(t);
-		curTime += +"#";
-
-		dataToSend = "P0#" + curTime + datanumber;
+		dataToSend = "P1#" + String(datanumber) + "\n";
 		Serial.print(dataToSend);
 		datanumber++;
 		lastMillis = millis();
