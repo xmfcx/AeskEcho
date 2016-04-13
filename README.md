@@ -26,5 +26,6 @@ Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
  6. NI = Name you like, I named them like ROUTER3, ROUTER2.
  7. Note somewhere the SH and SL numbers, they are necessary to decide where you are sending stuff.
  8. BD = 115200.
+
 #About
 This was a prepared for Shell Eco-marathon Europe 2016 by AESK (Alternative Energy Systems Club) http://www.ytuaesk.com/
