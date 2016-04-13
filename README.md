@@ -12,11 +12,11 @@ Telemetry Mesh Network Project with 3 Arduino Nanos and 4 XBee Pro 868 to extend
 * Device 0 is the final destination. 1 and 3 sends data to it.
   * In my case, 0 was directly connected to laptop.
 * Device 1 receives data from 2 and 3 and sends to 0.
-  * If received from 3, rename the ID to 1.
+  * If received from 3, renames the ID to 1.
 * Device 2 receives from 3 and sends it to 1.
   * Renames ID to 2.
 
-##XBee Configuratins
+##XBee Configurations
 Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
 1. Factory reset all.
 2. ID = some number you like. Must be same on all.
@@ -26,6 +26,5 @@ Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
 6. NI = Name you like, I named them like ROUTER3, ROUTER2.
 7. Note somewhere the SH and SL numbers, they are necessary to decide where you are sending stuff.
 8. BD = 115200.
-
 #About
 This was a prepared for Shell Eco-marathon Europe 2016 by AESK (Alternative Energy Systems Club) http://www.ytuaesk.com/
