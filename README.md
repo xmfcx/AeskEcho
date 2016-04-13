@@ -1,4 +1,4 @@
-# AeskEcho
+#AeskEcho
 Telemetry Mesh Network Project with 3 Arduino Nanos and 4 XBee Pro 868 to extend range.
 
 ##Dependencies
@@ -29,6 +29,11 @@ Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
   8. BD = 115200.
  
 * Tip: Set PL to 0 (1 mW) if you are testing indoors otherwise these electromagnetic waves act weirdly and they dont communicate well. Even if you set it to 1 mW, you need to keep them away from each other for around 50cm to make sure they communicate healthly You can set them back to 300 mW for outdoors when the actual test time comes :).
+
+##Special Thanks
+To Mr. Dermot McDonnell here: https://groups.google.com/forum/#!topic/xbee-api/Iell-JPOPK8
+Thanks to his post I figured out it was possible with 868 xbees, not only with 868LP series.
+Also to whole https://github.com/andrewrapp/xbee-arduino project contributors for making life easy.
 
 #About
 This was a prepared for Shell Eco-marathon Europe 2016 by AESK (Alternative Energy Systems Club) http://www.ytuaesk.com/
