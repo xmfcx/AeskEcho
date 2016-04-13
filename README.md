@@ -18,13 +18,13 @@ Telemetry Mesh Network Project with 3 Arduino Nanos and 4 XBee Pro 868 to extend
 
 ##XBee Configurations
 Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
-1. Factory reset all.
-2. ID = some number you like. Must be same on all.
-3. NO = 2.
-4. AP = 2.
-5. AO = 1.
-6. NI = Name you like, I named them like ROUTER3, ROUTER2.
-7. Note somewhere the SH and SL numbers, they are necessary to decide where you are sending stuff.
-8. BD = 115200.
+ 1. Factory reset all.
+ 2. ID = some number you like. Must be same on all.
+ 3. NO = 2.
+ 4. AP = 2.
+ 5. AO = 1.
+ 6. NI = Name you like, I named them like ROUTER3, ROUTER2.
+ 7. Note somewhere the SH and SL numbers, they are necessary to decide where you are sending stuff.
+ 8. BD = 115200.
 #About
 This was a prepared for Shell Eco-marathon Europe 2016 by AESK (Alternative Energy Systems Club) http://www.ytuaesk.com/
