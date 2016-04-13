@@ -27,6 +27,7 @@ Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
  6. NI = Name you like, I named them like ROUTER3, ROUTER2.
  7. Note somewhere the SH and SL numbers, they are necessary to decide where you are sending stuff.
  8. BD = 115200.
+ *Tip: Set PL to 0 (1 mW) if you are testing indoors otherwise these electromagnetic waves act weirdly and they dont communicate well. Even if you set it to 1 mW, you need to keep them away from each other for around 50cm to make sure they communicate healthly You can set them back to 300 mW for outdoors when the actual test time comes :).
 
 #About
 This was a prepared for Shell Eco-marathon Europe 2016 by AESK (Alternative Energy Systems Club) http://www.ytuaesk.com/
