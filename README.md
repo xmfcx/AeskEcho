@@ -10,11 +10,12 @@ Telemetry Mesh Network Project with 3 Arduino Nanos and 4 XBee Pro 868 to extend
 * Device 3 is the main broadcaster. 3 sends data to 0, 1 and 2.
   * Message Format: "P3#dataNumber\r\n" 3 here is ID.
 * Device 0 is the final destination. 1 and 3 sends data to it.
-  * In my case, 0 was directly connected to laptop.
 * Device 1 receives data from 2 and 3 and sends to 0.
   * If received from 3, renames the ID to 1.
 * Device 2 receives from 3 and sends it to 1.
   * Renames ID to 2.
+* Device 1, 2 and 3 are Arduino Nano. And respectively use AeskEcho# files.
+* Device 0 was directly connected to laptop.
 
 ##XBee Configurations
 Use XCTU to configure XBees. I had 4 Xbee Pro 868 devices.
